@@ -1,5 +1,5 @@
-FROM ubuntu:xenial
-MAINTAINER alexandre.allouche@xcg-consulting.fr 
+FROM phusion/baseimage:0.9.21
+MAINTAINER m.benyoub@itsolutions.dz 
 
 # Define some ENV variables
 # this will be used as the default backend option for confd
