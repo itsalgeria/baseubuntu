@@ -17,5 +17,8 @@ ENV LC_ALL en_US.UTF-8
 # add some system packages
 RUN apt-get update && apt-get -y -q install \
 	sudo less \
-	net-tools \
 	--no-install-recommends
+	
+# add some net-tools
+RUN apt-get -y -q install \
+	net-tools
