@@ -1,5 +1,5 @@
 #FROM phusion/baseimage:0.9.21
-FROM phusion/baseimage:1.0.7
+FROM phusion/baseimage:master
 MAINTAINER m.benyoub@itsolutions.dz 
 
 # Use baseimage-docker's init system.
